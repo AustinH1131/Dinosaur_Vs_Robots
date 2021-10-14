@@ -4,13 +4,13 @@ from Weapons import Weapon
 
 class Robot:
 
-    def __init__(self):
-        self.name=input(" ")
-        self.health=int(500)
-        self.weapon=Weapon
+    def __init__(self,name,health):
+        self.name=name
+        self.health=health
+        self.weapon=Weapon()
         
-
-    def attack(self):
+    
+    def attack(self,Dinosaur):
         #Void
         pass
 

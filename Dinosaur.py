@@ -1,11 +1,11 @@
 class Dinasaur:
 
-    def __instancecheck__(self,):
-        self.name=input(" ")
-        self.attack_power=int(84)
-        self.health=int(675)
+    def __instancecheck__(self,name,attack_power,health):
+        self.name=name
+        self.attack_power=attack_power
+        self.health=health
 
     
-    def attack(self,robot):
+    def attack(self,Robot):
         #Void
         pass
